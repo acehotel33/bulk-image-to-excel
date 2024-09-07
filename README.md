@@ -1,1 +1,1 @@
-# A Golang Script for Adding Images to Excel at Scale
+Python Script for Bulk-Adding Images to Consecutive Excel Cells
