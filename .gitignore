@@ -68,3 +68,9 @@ Thumbs.db
 *.bak
 *.swp
 *.swo
+
+# Ignore Excel files
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
