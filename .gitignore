@@ -1,33 +1,70 @@
-# Binaries for programs and plugins
-*.exe
-*.dll
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# C extensions
 *.so
-*.dylib
 
-# Test binary, built by `go test -c`
-*.test
+# Virtual environment folders
+env/
+venv/
+.venv/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Pipenv files
+Pipfile
+Pipfile.lock
 
-# Ignore files in the images folder (optional, remove if you want to track these)
-images/*
+# pyenv
+.python-version
 
-# Dependency directories (optional)
-vendor/
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
 
-# Editor and IDE specific files
+# Setup files
+*.cover
+*.log
+*.pot
+*.mo
+*.compiled
+*.mypy_cache/
+.cache
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Distribution / packaging
+*.wheel
+*.manifest
+*.spec
+
+# Image files (optional - you can comment these out if you want to track images)
+images/
+
+# Excel files (optional)
+*.xls*
+*.xlsx
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
 *.swp
 *.swo
-.idea/
-.vscode/
-
-# Excel temp and backup files
-*.xls*
-*.xlsx~
-*.bak
-*.tmp
-
-# Logs and cache
-*.log
-*.cache
